@@ -1,0 +1,105 @@
+html{
+    background-image: url("bg.jpg");
+    background-repeat:0;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100%;
+}
+.topnav{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width:100%;
+    background-color: #5a40c2;
+    color: #fff;
+    padding: 5px;
+}
+  
+.topnav a {
+    float:left;
+    color:white;
+    text-align: top;
+    padding: 12px 40px 16px 40px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #7082e7;
+    color: rgb(231, 224, 224);
+  }
+  
+  .topnav a.active {
+    background-color: #e10bcc;
+    color: white;
+  }
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+.wrapper{
+    width: 420px;
+    color: rgb(245, 241, 241);
+    border:2px solid;
+    border-radius: 10px;
+}
+.wrapper h2{
+    font-size:x-large;
+   text-align: center;
+    font-style: italic;
+}
+.wrapper .input-box{
+    font-size: large;
+   text-align: center;
+    font-style:normal;
+
+}
+.input-box input{
+    height: 30px;
+    width: 50%;
+}
+.input-box #username_error,.input-box #password_error{
+    font-size:small;
+    color: rgb(237, 128, 137);
+    display: none;
+   
+}
+.wrapper .remeber{
+    font-size: small;
+   text-align: center;
+    font-style: italic;
+}
+.remember{
+    color:white;
+    text-decoration: none;
+    margin-right: 2px;
+    text-align: center;
+}
+.remember a{
+    text-align: center;
+    font-size: smaller;
+    color:white;
+
+}
+.but button{
+    margin-left: 100px;
+    align-items: center;
+    text-align: center;
+    height: 30px;
+    width: 60%;
+}
+.register-link{
+    margin-right: 2px;
+    align-items: center;
+    text-align: center;
+
+}
+.register-link a{
+    margin-right: 2px;
+    align-items: center;
+    text-align: center;
+    color: white;
+
+}
